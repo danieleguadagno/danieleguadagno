@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daniele Guadagno</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../styles.css">
+  <link rel="icon" type="image/x-icon" href="../../assets/img/favicon .ico">
+</head>
+
+<body class="body-project" style="background-color: white;">
+
+  <nav class="navbar navbar-expand-md navbar-dark bg-black fixed-top">
+    <div class="container">
+      <a href="../../contatto/" class="contatto btn btn-outline-light btn-md px-3 py-2 ">Contatto</a>
+      <a class="navbar-brand" href="../../index.html">
+        <img class="align-middle navbar-expand-lg" src="../../assets/img/Asset 3.svg" height="30" alt="">
+      </a>
+      <button type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" class="navbar-toggler"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end mt-3" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="../../index.html" class="nav-link fs-6">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="../../progetti/" class="nav-link fs-6 active">Progetti</a>
+          </li>
+          <li class="nav-item">
+            <a href="../../chi-sono/" class="nav-link fs-6">Chi Sono</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<button onclick="history.go(-1); return true" class="btn btn-md mx-3"><i class="bi bi-arrow-bar-left"></i> Indietro</button>
+
+  <h1 class="h1 text-center" style="color: rgb(121, 164, 121);">iVegan</h1>
+  <div class="text-center mb-4">
+    <h4 class="h4 text-center mt-4 mb-4" style="color: rgb(54, 99, 54);">Chi siamo</h4>
+    <img src="assets/logo-1662110138.jpeg" alt="" style="width: 25%; max-width: 200px;">
+  </div>
+
+  <div class="row m-4">
+    <div class="col-md-6">
+      <p class="fw-semibold fs-5">iVegan nasce nel 2008 grazie alla
+        passione e all’esperienza maturata nei gruppi di acquisto vegan.
+        Da qui l’idea di un progetto ambizioso:</p>
+      <ul>
+        <li>Garantire a tutte le persone del buon cibo vegan direttamente nelle loro case</li>
+        <li>Un ottimo servizio clienti di vendita e posto vendita</li>
+        <li>Garanzia del 100% di soddisfazione dell’esperienza di acquisto su
+          iVegan</li>
+      </ul>
+    </div>
+    <div class="col-md-6">
+      <h6 class="h6 fw-bold" style="color: rgb(54, 99, 54);">Missione</h6>
+      <p class="">iVegan è il primo e più grande distributore di alimenti vegan nel nostro paese. <br>
+        Seleziona le imprese tra produttori artigiani e grandi aziende specializzate nel settore, mettendo sempre al
+        primo posto la qualità.
+        Una spesa completa, dalla colazione alla cena, che rende più semplice e sfiziosa la scelta vegan: perchè
+        crediamo che il mondo si modifica a partire da noi stessi, consapevoli che il primo cambiamento da attuare sia
+        quello alimentare di tipo etico verso gli animali e la terra che ci ospita.</p>
+
+      <h6 class="h6 fw-bold" style="color: rgb(54, 99, 54);">Cosa Fa</h6>
+      <p class="fs-">iVegan è il primo e più fornito rivenditore di alimenti per vegani, dal 2008 rivende prodotti delle
+        più ricercate marche Italiane ed europee.</p>
+    </div>
+  </div>
+
+ 
+    <h4 class="h4 text-center" style="color: rgb(54, 99, 54);">Analisi Euristica</h4>
+    <div class="row mt-4 m-3">
+      <div class="col-md-6 mb-3">
+        <h6 class="h6 lead mb-3" style="color: rgb(54, 99, 54);"><i class="bi bi-1-circle-fill"></i> Visibilita dello
+          stato del sistema</h6>
+        <h6 class="h6">Pro</h6>
+        <h6 class="h6 fw-light" style="color: rgb(121, 164, 121);">Desktop</h6>
+        <ul>
+          <li>Nella barra della ricerca è presente la cronologia</li>
+          <li>Breadcrumb chiare, presentano ordine gerarchico e possibilità di ritorno alla sezione voluta</li>
+          <li>L'impossibilità di eseguire un comando Es. “Procedi all’ acquisto” viene segnalato sul cursore del mouse
+            con un divieto e l’icona e il testo hanno un tono leggero rispetto al solito</li>
+          <li>Durante il processo di acquisto vieni guidato passo passo grazie la corretta visualizzazione dei passi da
+            eseguire.</li>
+          <li>Intuizione immediata delle categorie grazie ai Breadcrumb</li>
+        </ul>
+        <h6 class="h6 fw-light" style="color: rgb(121, 164, 121);">Mobile</h6>
+        <ul>
+          <li>Le categorie si trovano sul menù laterale</li>
+          <li>Stessi punti della versione Desktop</li>
+        </ul>
+      </div>
+      <div class="col-md-6">
+        <h6 class="h6">Contro</h6>
+        <h6 class="h6 fw-light" style="color: rgb(121, 164, 121);">Desktop</h6>
+        <ul>
+          <li>Nelle Breadcrumb non viene evidenziata o visualizzata con un colore diverso la sezione in cui ci troviamo
+          </li>
+          <li>Non sono presenti simboli o barre di caricamento</li>
+          <li>Non sono presenti i filtri</li>
+          <li>Visibilità limitata dei nomi delle categorie che si visitano perché situati in posti non subito
+            percepibili e sovrastati da immagini</li>
+          <li>La mancanza di filtri rende la ricerca difficile soprattutto in categorie con molti prodotti</li>
+        </ul>
+        <h6 class="h6 fw-light" style="color: rgb(121, 164, 121);">Mobile</h6>
+        <ul>
+          <li>Nella barra di ricerca non viene visualizzato nulla</li>
+          <li>Il tono del bottone e della scritta di azione non completabili risultano essere uguali a quelle
+            azionabili.</li>
+          <li>Stessi punti della versione Desktop</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="row mt-4 m-3">
+      <div class="col-md-6 mb-3">
+        <h6 class="h6 lead mb-3" style="color: rgb(54, 99, 54);"><i class="bi bi-2-circle-fill"></i> Corrispondenza tra
+          il sistema ed il mondo reale</h6>
+        <h6 class="h6">Pro</h6>
+        <h6 class="h6 fw-light" style="color: rgb(121, 164, 121);">Desktop e Mobile</h6>
+        <ul>
+          <li>Utilizzo di messaggi testuali comuni (Es. Carrello, accedi)</li>
+          <li>Icone Carrello, Ricerca e Account subito riconoscibili</li>
+        </ul>
+        <h6 class="h6">Contro</h6>
+        <h6 class="h6 fw-light" style="color: rgb(121, 164, 121);">Desktop e Mobile</h6>
+        <ul>
+          <li>Icone che indicano le categorie non utili e spesso non riconoscibili (Es. Carne)</li>
+          <li>Linguaggio in alcune cose non comprensibile a tutti (Es. Lord of tune, vuna, fermaggio)</li>
+        </ul>
+      </div>
+      <div class="col-md-6">
+        <h6 class="h6 lead mb-3" style="color: rgb(54, 99, 54);"><i class="bi bi-3-circle-fill"></i> Dare all’utenza
+          controllo e libertà</h6>
+        <h6 class="h6">Pro</h6>
+        <h6 class="h6 fw-light" style="color: rgb(121, 164, 121);">Desktop e Mobile</h6>
+        <ul>
+          <li>Possibilità di utlizzare diversi tipi di ordinamento (per griglia, lista, alfabetico, prezzo ecc.)</li>
+          <li>Procedimento di iscrizione snello, non presenta eccessivi
+            campi da compilare</li>
+          <li>Iscrizione alla newsletter semplice ed istantanea</li>
+          <li>Possibilità di rimuovere liberamente i prodotti dal carrello</li>
+          <li>Possibilità di annullare un operazione non voluta nella sezione cerca e carrello tramite la “X”</li>
+          <li>Possibilità di ridimensionare la finestra</li>
+        </ul>
+        <h6 class="h6">Contro</h6>
+        <h6 class="h6 fw-light" style="color: rgb(121, 164, 121);">Desktop e Mobile</h6>
+        <ul>
+          <li>Campo per l’indirizzo Pec e codice destinatario presente 2 volte</li>
+          <li>Non presente il comando annulla o torna indietro nelle
+            categorie e sottocategorie</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="row mt-4 m-3">
+      <div class="col-md-6 mb-3">
+        <h6 class="h6 lead mb-3" style="color: rgb(54, 99, 54);"><i class="bi bi-4-circle-fill"></i> Consistenza e
+          standard</h6>
+        <h6 class="h6">Pro</h6>
+        <h6 class="h6 fw-light" style="color: rgb(121, 164, 121);">Desktop e Mobile</h6>
+        <ul>
+          <li>Coerenza nella scelta di font e nella struttura di eCommerce</li>
+          <li>Rispettata la struttura per tutto il sito</li>
+        </ul>
+        <h6 class="h6">Contro</h6>
+        <h6 class="h6 fw-light" style="color: rgb(121, 164, 121);">Desktop</h6>
+        <ul>
+          <li>La barra di navigazione in fase di scroll non presenta il logo sulla sinistra a differenza della versione
+            Mobile</li>
+          <li>Uso di immagini incoerenti soprattutto nella sezione
+            <Incredibile ma vegan> vengono usate immagini animate che non permettono di capire quale prodotto si parla
+              (Es. Carne, Uova, Pesce, Dolci)
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-6">
+        <h6 class="h6 fw-light" style="color: rgb(121, 164, 121);">Desktop e Mobile</h6>
+        <ul>
+          <li>Il menù a tendina delle categorie non risulta essere coerente tra loro in alcune sono presenti foto e
+            lista, in un’altra solo lista e in un’altra solo foto</li>
+          <li>Nelle categorie con le foto l’ordinamento non presenta
+            coerenza e i titoletti sono posti in altezza diversa</li>
+          <li>La lista dei desideri nel menù a tendina viene visualizzato in italiano, invece nella sezione <My account>
+              è visualizzata in inglese</li>
+          <li>Nel menù di navigazione in fase di scroll non presenta la
+            barra di ricerca</li>
+        </ul>
+      </div>
+    </div>
+      <div class="row mt-4 m-3">
+        <div class="col-md-6 mb-3">
+          <h6 class="h6 lead mb-3" style="color: rgb(54, 99, 54);"><i class="bi bi-5-circle-fill"></i> Prevenzione
+            dall’errore</h6>
+          <h6 class="h6">Pro</h6>
+          <h6 class="h6 fw-light" style="color: rgb(121, 164, 121);">Desktop e Mobile</h6>
+          <ul>
+            <li>I messaggi di errore vengono visualizzati in modo efficace</li>
+            <li>Quando si vuole eliminare la lista dei desideri viene correttamente segnalato con un messaggio se si è
+              sicuri di
+              confermare</li>
+            <li>Quando si vuole aggiungere un prodotto non disponibile al carrello viene segnalato da un messaggio “non
+              disponibile”</li>
+            <li>È possibile richiedere un avviso quando un prodotto torna ad essere disponibile</li>
+            <li>Sono presenti messaggi di colore verde per operazione
+              andate a buon fine e rosso per quelli di errore</li>
+            <li>Segnalati disponibilità di quantità dei prodotti</li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <h6 class="h6">Contro</h6>
+          <h6 class="h6 fw-light" style="color: rgb(121, 164, 121);">Desktop e Mobile</h6>
+          <ul>
+            <li>Sono presenti alcune pagine prive di risultati e con nessuna categoria alternativa o con prodotti
+              seggeriti</li>
+          </ul>
+          <h6 class="h6 lead mb-3" style="color: rgb(54, 99, 54);"><i class="bi bi-6-circle-fill"></i> Riconoscimento
+            più che ricordo</h6>
+          <h6 class="h6">Pro</h6>
+          <h6 class="h6 fw-light" style="color: rgb(121, 164, 121);">Desktop e Mobile</h6>
+          <ul>
+            <li>Descrizioni prodotti</li>
+            <li>Icone e pulsanti percepibili</li>
+            <li>Nelle complilazioni di form, vengono ricordate le informazioni da inserire</li>
+          </ul>
+          <h6 class="h6">Contro</h6>
+          <h6 class="h6 fw-light" style="color: rgb(121, 164, 121);">Desktop e Mobile</h6>
+          <ul>
+            <li>Nelle categorie viene visualizzato un grande rettangolo che contiene foto e titolo e questo non permette
+              di visualizzare subito le sottocategorie</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row mt-4 m-3">
+        <div class="col-md-6 mb-3">
+          <h6 class="h6 lead mb-3" style="color: rgb(54, 99, 54);"><i class="bi bi-7-circle-fill"></i> Flessibilità ed
+            Efficienza</h6>
+          <h6 class="h6">Pro</h6>
+          <h6 class="h6 fw-light" style="color: rgb(121, 164, 121);">Desktop</h6>
+          <ul>
+            <li>Possibilità di effetturae una ricerca dalla barra relativa,
+              premendo sia la lente d’ingrandimento che il tasto invio</li>
+            <li>Possibilità di dare un’occhiata più dettagliata del prodotto
+              solo se lo desideri premendo sulla lente d’ingandimento</li>
+          </ul>
+          <h6 class="h6 fw-light" style="color: rgb(121, 164, 121);">Mobile</h6>
+          <ul>
+            <li>Posizione ottimale del bottone per inviare un messaggio</li>
+          </ul>
+          <h6 class="h6">Contro</h6>
+          <h6 class="h6 fw-light" style="color: rgb(121, 164, 121);">Desktop e Mobile</h6>
+          <ul>
+            <li>Il menù di navigazione non facile da consultare</li>
+            <li>Gli eccessivi scroll rendono inefficienti i servizi e pesanti per i nuovi utenti</li>
+            <li>Poco efficiente nella versione Desktop la CTA del messaggio perché posta troppo in basso e difficile da
+              visualizzare</li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <h6 class="h6 lead mb-3" style="color: rgb(54, 99, 54);"><i class="bi bi-8-circle-fill"></i> Estetica e
+            progettazione minimalista</h6>
+          <h6 class="h6">Pro</h6>
+          <h6 class="h6 fw-light" style="color: rgb(121, 164, 121);">Desktop e Mobile</h6>
+          <ul>
+            <li>La sezione del carrello mantiene un design pulito</li>
+          </ul>
+          <h6 class="h6">Contro</h6>
+          <h6 class="h6 fw-light" style="color: rgb(121, 164, 121);">Desktop</h6>
+          <ul>
+            <li>Eccessive pubblicità di prodotti</li>
+            <li>Le immagini risultano essere ingombranti per la loro
+              eccessiva grandezza</li>
+            <li>Presenti elementi fuorvianti (Es. Assistenza telefonica in prima pagina e così grande)</li>
+            <li>Ripetizioni di prodotti e sezioni già viste</li>
+            <li>La schermata principale presenta sezioni, prodotti e categorie non utili</li>
+            <li>Elementi di avviso eccessivamente grandi</li>
+            <li>Nella sezioni carrello vengono visualizzatti i menù di
+              navigazione e le categorie dei prodotti non necessariamente
+              indispensabili</li>
+            <li>Immagini di bassa qualità e poco efficaci</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row mt-4 m-3">
+        <div class="col-md-6 mb-3">
+          <h6 class="h6 fw-light" style="color: rgb(121, 164, 121);">Mobile</h6>
+          <ul>
+            <li>Il menù di navigazione risulta essere troppo grande in fase di scroll</li>
+            <li>Lo scroll sembra infinito e ostacolato dalle tante pubblicità</li>
+          </ul>
+          <h6 class="h6 lead mb-3 mt-5" style="color: rgb(54, 99, 54);"><i class="bi bi-9-circle-fill"></i> Aiuta gli
+            utenti a riconoscere, diagnosticare ed uscire dalle situazioni di errore</h6>
+          <h6 class="h6">Pro</h6>
+          <h6 class="h6 fw-light" style="color: rgb(121, 164, 121);">Desktop e Mobile</h6>
+          <ul>
+            <li>Segnalazioni di errore trasmesse in rosso e quelle di conferma in verde</li>
+            <li>L’errore nella compilazione di un campo viene evidenziata in rosso la casella e indicato con una “i”
+              cosa manca</li>
+            <li>Spiegazioni corrette per gli errori</li>  
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <h6 class="h6 lead mb-3" style="color: rgb(54, 99, 54);"><i class="bi bi-1-circle-fill"></i><i class="bi bi-0-circle-fill"></i> Documentazione</h6>
+          <h6 class="h6">Pro</h6>
+          <h6 class="h6 fw-light" style="color: rgb(121, 164, 121);">Desktop e Mobile</h6>
+          <ul>
+            <li>È possibile mandare un messaggio</li>
+            <li>Sono presenti i Termini e le Condizioni d’Uso</li>
+            <li>Presenti le normative della Privacy</li>
+            Presente la sezione Contatti
+          </ul>
+        </div>
+      </div>
+    
+
+    <div class="container text-center mb-5">
+    <h4 class="h4 text-center" style="color: rgb(54, 99, 54);">Competitor</h4>
+    <p class="mt-2 pb-4 text-center">Dopo una ricerca accurata fatta, sono stati identificati 7 possibili competitor che hanno lo stesso obbietivo.</p>
+    <img src="assets/competitor-1.jpg" alt="" width="80%">
+    <img src="assets/competitor-2.jpg" alt="" width="80%">
+    <img src="assets/competitor-3.jpg" alt="" width="80%">
+  </div>
+
+  <div class="container text-center mb-4">
+    <h4 class="h4 text-center mb-3" style="color: rgb(54, 99, 54);">Target</h4>
+    <h6 class="h6" style="color: rgb(54, 99, 54);">iVegan</h6>
+    <p class="mt-2 pb-4 text-center">Cerca di promuovere
+      un’alimentazione vegana a tutti
+      offrendo prodotti di qualsiasi genere a prezzi accessibili a tutti e soprattutto di ottima qualità.</p>
+    <h6 class="h6" style="color: rgb(54, 99, 54);">Fasce d'età</h6>
+    <p class="mt-2 pb-4 text-center">Dalle informazioni ottenute,la fascia d’età interessata va dai 30 ai 50 anni circa, la società ha come obbiettivo principale quello di estendersi anche nelle fasce d’età più giovani.</p>
+    <h6 class="h6" style="color: rgb(54, 99, 54);">Genere</h6>
+    <p class="mt-2 pb-4 text-center">La comunità è per lo più
+      composta da donne, più
+      interessate ai prodotti vegani e anche disposte solo a provare. Il brand però ha l’obbiettivo di estendere la cerchia a qualsiasi genere.</p>
+    <h6 class="h6" style="color: rgb(54, 99, 54);">Istruzione e Lavoro</h6>
+    <p class="mt-2 pb-4 text-center">Per quanto riguarda l’istruzione l’utente risulta ad essere amante della cultura, aperto a nuovi
+      pensieri e di mente aperta.
+      Le condizioni economiche del target risultano essere modeste.</p>
+  </div>
+
+  <div class="container text-center mb-4" style="width: 100%;">
+    <h4 class="h4 text-center mb-3" style="color: rgb(54, 99, 54);">Sitemap Precedente</h4>
+<img src="assets/sitemap-1.jpg" width="100%">
+<h4 class="h4 text-center mt-5 mb-3" style="color: rgb(54, 99, 54);">Sitemap Aggiornata</h4>
+<img src="assets/Mappa iVegan 2.svg" width="100%">
+  </div>
+
+  <div class="container text-center mt-5 pb-5" style="width: 100%;">
+    <h4 class="h4 text-center mb-5" style="color: rgb(54, 99, 54);">Wireframe</h4>
+<div class="row">
+  <div class="col-md-6"><img src="assets/wireframe-ivegan/iPhone e Mac iV.png" width="100%"></div>
+  <div class="col-md-6"><img src="assets/wireframe-ivegan/Macbook live.png" width="100%"></div>
+  <div class="col-md-6"><img src="assets/wireframe-ivegan/Home 1 iPhone iV.png" width="100%"></div>
+  <div class="col-md-6"><img src="assets/wireframe-ivegan/Home 1 Mac .png" width="100%"></div>
+</div>
+<a href="https://bit.ly/3M2Zn6v" target="_blank" class="btn btn-outline-dark mt-4">Vedi Wireframe</a>
+  </div>
+  
+  <section style="background-color: black; width: 100%;">
+  <div class="container text-center mt-5 mb-4" style="width: 100%;">
+    <h4 class="h4 text-center pt-5 mb-5 text-white">Prototype</h4>
+
+    <div class="row">
+<img src="assets/macbook-ivegan.png" width="100%">
+<video autoplay loop> 
+    <source src="assets/video/video-mac.mp4" type="video/mp4">
+  </video>
+  <img class="mt-5" src="assets/iphone-ivega.png" width="100%">
+  <video autoplay loop style="width: 60%; max-width: 500px;" class="m-auto"> 
+    <source src="assets/video/video-iphone.mp4" type="video/mp4">
+  </video>
+</div>
+<a href="https://bit.ly/46CyGxN" target="_blank" class="btn btn-outline-light mt-5 mb-5">Vedi Prototype</a>
+  </div>
+</section>
+
+
+
+
+    <footer class="text-center text-black bg-white" style="background-color: #21081a;">
+      <div class="container pb-0">
+        <section class="mb-4">
+          <a href="https://www.instagram.com/daniele__guadagno/" target="_blank" role="button"
+            class="btn btn-outline-dark m-1"><i class="bi bi-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/daniele-guadagno-152828213/" target="_blank" role="button"
+            class="btn btn-outline-dark m-1"><i class="bi bi-linkedin"></i></a>
+          <a href="#" role="button" class="btn btn-outline-dark m-1"><i target="_blank" class="bi bi-github"></i></a>
+        </section>
+      </div>
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2023 Copyright:
+        <a class="text-black" href="https://mdbootstrap.com/">Daniele Guadagno</a>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>

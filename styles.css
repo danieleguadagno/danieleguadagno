@@ -30,6 +30,12 @@
   color: #EDBF70;
 }
 
+.section {
+  background-color: white;
+  color: black;
+  margin-top: 64px;
+}
+
 .nav-link:hover {
   color: rgba(237, 191, 112, 0.8)
 }
@@ -71,6 +77,10 @@ color: #EDBF70;
   margin-left: 16px;
   margin-right: 16px;
 }
+.home-card {
+  width: 18rem;
+  height: fit-content;
+}
 
 .form-control {
   border: none;
@@ -104,6 +114,20 @@ li {
   font-size: 20px;
 }
 
+.sfondo-progetti {
+  padding: 32px 60px 24px 60px;
+}
+
+.copyright {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.light-green {
+color: rgb(121, 164, 121);
+}
+.green {
+  color: rgb(54, 99, 54);
+}
 
 @media screen and (min-width: 768px) {
 .contatto {
